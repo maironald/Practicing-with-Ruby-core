@@ -113,3 +113,18 @@ Order.method_three
 Order.new.method_four
 # this is method four.
 
+
+
+# Module can have an instance methods and class methods
+module Advance
+    extend self
+    def sum
+        puts "this is the method"
+    end
+end
+
+class AdvanceClass
+    include Advance
+end
+
+AdvanceClass.new.sum

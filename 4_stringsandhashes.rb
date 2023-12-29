@@ -20,7 +20,7 @@ puts a[-1] # d
 
 puts a.upcase # HELLO WORLD
 puts a.upcase! # when we use the "!" (exclamation mark), it will change the default of this string.
-puts a # hello world
+puts a # HELLO WORLD
 
 
 ## HASH MAP
@@ -96,6 +96,6 @@ puts "#{keys}"
 # [1,2]
 
 
-test1 = {|hash, key| key.to_s.upcase}
-test 1 = 
-pusts "${test1}
+# test1 = {|hash, key| key.to_s.upcase}
+# test 1 = 
+# pusts "${test1}
